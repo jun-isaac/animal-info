@@ -1,4 +1,5 @@
 # 동물정보 페이지
+https://jun-isaac.github.io/animal-info/
 
 1. 메인, 서브 페이지 구성
 2. 모바일 텝 메뉴 구현
@@ -9,4 +10,6 @@
     - 자바스크립트 fetch API 
     - 자바스크립트로 동물정보 출력
 5. 카테고리 별로 동물 표시(카테고리 필터링)
+    - location.search로 페이지별 요청 파마리터(query) 확인
+    - new URLSearchParams(searsh param).get(key)
 6. 시작페이지(index.html) 기본값 params = dog
