@@ -11,6 +11,10 @@
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
+    /* 최대 크기 450px */
+    max-width: 450px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
 }
 
 .container {
@@ -64,6 +68,9 @@ body {
 
 #gnb ul li.on>a {
     border-bottom: 4px solid #fff;
+}
+#contents {
+    width: 100%;
 }
 
 #contents h2 {
